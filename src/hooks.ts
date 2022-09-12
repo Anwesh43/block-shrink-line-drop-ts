@@ -72,7 +72,9 @@ export const useStyle = (w : number, h : number, scale : number) => {
                 left, 
                 top, 
                 height,
-                width 
+                background, 
+                width,
+                borderRadius: '4px'
             }
         }
     }
